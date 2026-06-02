@@ -1,30 +1,32 @@
 # WakeGuard
-## One-line Description
-
-ระบบตรวจวัด CO₂ ภายในรถเพื่อแจ้งเตือนผู้ขับขี่เมื่อคุณภาพอากาศเริ่มเสี่ยง
----
-
-## Core Flow
-
-ผู้ขับขี่อยู่ภายในรถ
-→ SCD40 ตรวจวัด CO₂
-→ ESP32 ประมวลผล
-→ RGB LED แจ้งเตือน
-→ ผู้ใช้รับรู้ความเสี่ยง
-
----
-
-## Sprint Goal
-
-ทำให้ ESP32 อ่านค่า CO₂ จาก SCD40 และควบคุม RGB LED ได้
-
----
 
 ## Team Members
+- อภิญรฎา แป้งนวล (Project Manager)
+- อนันดา สมใจ (UX/UI Designer)
+- ปรียาภรณ์ เดชพันธ์ (IoT Developer)
 
-| Name | Role |
-|--------|--------|
-| อภิญรฎา | PM |
-| อนันดา | UX/Product |
-| ปรียาภรณ์ | Embedded/IoT |
+## Problem
+ผู้ขับขี่อาจเกิดอาการง่วงจากระดับ CO₂ ภายในรถที่สูงเกินไป
 
+## Core Flow
+ผู้ขับขี่อยู่ภายในรถ
+→ SCD40 ตรวจวัดค่า CO₂
+→ ESP32 ประมวลผลค่า
+→ RGB LED แจ้งเตือนระดับความเสี่ยง
+→ ผู้ขับขี่รับรู้สถานะอากาศ
+
+## Sprint Goal
+ESP32 สามารถอ่านค่า CO₂ จาก SCD40
+และแสดงผลการแจ้งเตือนผ่าน RGB LED
+
+## Current Status
+- Firmware Prototype Complete
+- Hardware Integration Partial
+- RGB LED Replacement Required
+
+## Repository Structure
+docs/
+hardware/
+firmware/
+design/
+evidence/
