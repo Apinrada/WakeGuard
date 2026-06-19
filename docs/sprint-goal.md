@@ -4,10 +4,8 @@
 | เพิ่มปุ่มกดปิดเสียง | เก็บข้อมูลย้อนหลัง | Cloud Database |
 | ปรับปรุงการแจ้งเตือน | แจ้งเตือนผ่านโทรศัพท์ | Dashboard |
 
+Retrospective
 
-# 12. Retrospective
-
-ใช้รูปแบบ Keep / Problem / Try
 
 | Keep | Problem | Try / Next Step |
 | --- | --- | --- |
